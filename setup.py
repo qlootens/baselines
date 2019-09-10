@@ -37,7 +37,9 @@ setup(name='baselines',
           'joblib',
           'cloudpickle',
           'click',
-          'opencv-python'
+          'opencv-python',
+          'tensorflow',
+          'tensorflow-gpu'
       ],
       extras_require=extras,
       description='OpenAI baselines: high quality implementations of reinforcement learning algorithms',
